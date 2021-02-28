@@ -12,7 +12,7 @@ if ($_SESSION['isLogged'] != 1){
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>AdminLTE 3 | Starter</title>
+    <title>Admin Dashboard</title>
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="resources/plugins/fontawesome-free/css/all.min.css">
@@ -65,7 +65,7 @@ if ($_SESSION['isLogged'] != 1){
         <a href="index.php" class="brand-link">
             <img src="resources/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
                  style="opacity: .8">
-            <span class="brand-text font-weight-light">AdminLTE 3</span>
+            <span class="brand-text font-weight-light">Admin Dashboard</span>
         </a>
 
         <!-- Sidebar -->
