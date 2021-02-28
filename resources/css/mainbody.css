@@ -1,0 +1,278 @@
+body{
+    font-family: 'Merriweather', serif;
+    background: #F5F5F5;
+}
+
+/*Brand Name section*/
+.brandname{
+    font-family: Ranchers, serif;
+    height: 150px;
+}
+
+#brand-name{
+    text-shadow: 4px 4px 0px #000,
+    -4px 0 0px #000,
+    7px 4px 0 #fff;
+}
+
+.centered {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-size: 380%;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Header Navbar section*/
+#head-navbar{
+    background-color: #793041 !important;
+}
+
+.nav-item:hover{
+    background-color: #7F132C;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(31,19,19,1);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(31,19,19,1);
+    box-shadow: 0px 0px 12px 0px rgba(31,19,19,1);
+
+}
+
+/*Search Form css*/
+.search-section{
+    height: 80px;
+}
+
+#search{
+    width: 380px;
+    margin-top: 20px;
+    border: 1px solid #793041;
+    position: absolute;
+}
+
+.form-control:focus{
+    border-color: #793041;
+    box-shadow: none;
+}
+
+.input-group-append button{
+    background-color: #793041;
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+#footer1.footer-background{
+    background-color: #793041;
+    height: 500px;
+}
+
+/*Main contents Section*/
+.Home-contents{
+    margin-top: 30px;
+}
+
+/*Features videos news and health days css*/
+#f-videos h4 {
+    color: #3B4246;
+    margin-top: 1px;
+    text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+}
+
+.card-subtitle{
+    display: block;/* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.8em;
+}
+
+
+#f-news h4 {
+    color: #3B4246;
+    margin-top: 1px;
+    text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+}
+#f-healthDays h4 {
+    color: #3B4246;
+    margin-top: 1px;
+    text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+}
+hr {
+    background-color: #3B4246;
+    height: 4px;
+    width: 35%;
+    margin-bottom: 1px;
+    transition: 0.5s;
+}
+
+.hr-hover{
+    width: 100%;
+    transition: 0.5s;
+}
+
+#showMoreBtn{
+    width: 100%;
+    text-align: center;
+    background: #793041;
+    display: block;
+}
+#showMoreBtn input{
+    color: white;
+}
+
+#showMoreBtn:hover{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.modal-content{
+    text-align: center;
+}
+
+#close-icon{
+    width: 20px;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    text-align: center;
+}
+#video-modal-content{
+    background: transparent;
+    border: none!important;
+}
+
+/*Cards css section*/
+#home-card{
+    margin: 2px;
+    height: 125px;
+}
+#home-card:hover{
+    background: #DEDEDE;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.v-container{
+    cursor: pointer;
+}
+.v-container h7{
+    color: #353B3F;
+}
+.v-container #play-video-btn{
+    border: 1px solid #353B3F;
+    height: 30px;
+
+}
+.v-container #play-video-btn:focus{
+    box-shadow: none !important;
+}
+
+.v-container #play-video-btn:hover{
+    background: #793041;
+    color: white
+}
+
+/*Brand name page title css*/
+#page-title{
+    margin-bottom: 30px;
+}
+#page-title h3{
+    color: #353B3F;
+    font-weight: bold;
+}
+#i{
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+/*Brand name page cards Designs*/
+#brand-names{
+    background: #F5F5F5;
+    border: none !important;
+    transition: 0.4s;
+}
+
+#brand-names h4{
+    color: #353B3F;
+}
+#brand-names h6{
+    color: #353B3F;
+}
+
+#brand-names:hover{
+    background: #ffffff;
+    transition: 0.4s;
+}
+
+/*Single Brand page design*/
+#title{
+    color: #353B3F;
+}
+#genericName{
+    color: #353B3F;
+}
+#packing{
+    color: #353B3F;
+}
+#pharmaceuticals{
+    color: #353B3F;
+}
+#packsizePrice{
+    color: #353B3F;
+}
+
+.indications{
+    margin-top: 20px;
+}
+
+.single-entity{
+    background: #793041;
+    height: 45px;
+}
+.single-entity h4{
+    height: 100%;
+    color: white;
+    padding-top: 8px;
+}
+pre{
+    display: inline-block;
+    overflow: hidden;
+    word-break: break-word;
+    white-space: pre-wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #353B3F;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*Pharmaceutical Companies page card Design*/
+#pharmaceuticals-names{
+    background: #F5F5F5;
+    border: none !important;
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+
+#pharmaceuticals-names h4{
+    color: #353B3F;
+}
+#pharmaceuticals-names h4{
+    color: #353B3F;
+}
+
+#pharmaceuticals-names:hover{
+    background: #ffffff;
+    transition: 0.4s;
+}
+

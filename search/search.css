@@ -1,0 +1,78 @@
+.container.h-100{
+    padding-top: 20px;
+}
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    width: 65%;
+    background-color: #793041;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 85%;
+    caret-color:white;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+.search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-decoration:none;
+}
+
+#dataViewer{
+    margin-top: 13px;
+    padding: 32px;
+    list-style: none;
+    background: #373737;
+    width:51.3%;
+    border-radius: 10px;
+    color: #ffffff;
+    height: 350px;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: 9999;
+    display: none;
+}
+
+#dataViewer li{
+    padding: 8px 0;
+    border-left: 1px solid #635f5f;
+    padding-left: 24px;
+}
+#dataViewer li:hover{
+    background: #444444;
+}
+
+#dataViewer a{
+    color: white;
+    width: 100%;
+    display: block;
+}
+#dataViewer a:hover{
+    text-shadow: 0px 0px 12px #000000;
+    font-size: medium;
+}
+
+#dataViewer::-webkit-scrollbar{
+    width: 4px;
+    background: #101010;
+}
+
+#dataViewer::-webkit-scrollbar-thumb{
+    background: #ffffff;
+}
